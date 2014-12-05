@@ -7,9 +7,33 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="Banner" type="boolean" value="false" -->
+<!-- TemplateParam name="Primary Nav" type="boolean" value="false" -->
+<!-- TemplateParam name="Secondary Nav" type="boolean" value="false" -->
+<!-- TemplateParam name="Footer" type="boolean" value="false" -->
 </head>
 
 <body>
+<table width="1000" height="250" border="1">
+  <tr>
+    <td><!-- TemplateBeginIf cond="Banner" -->Banner<!-- TemplateEndIf --></td>
+  </tr>
+</table>
+<table width="1000" height="250" border="1">
+  <tr>
+    <td><!-- TemplateBeginIf cond="_document['Primary Nav']" -->Primary Nav<!-- TemplateEndIf --></td>
+  </tr>
+</table>
+<table width="1000" height="800" border="1">
+  <tr>
+    <td width="250"><!-- TemplateBeginIf cond="_document['Secondary Nav']" -->Secondary Nav<!-- TemplateEndIf --></td>
+    <td width="750"><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable --></td>
+  </tr>
+</table>
+<table width="1000" height="150" border="1">
+  <tr>
+    <td><!-- TemplateBeginIf cond="Footer" -->Footer<!-- TemplateEndIf --></td>
+  </tr>
+</table>
 </body>
 </html>
