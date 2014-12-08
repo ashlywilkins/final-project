@@ -4,7 +4,7 @@
 	border: 10px double #000;
 	float: left;
 	margin-top: 10px;
-	margin-right: 15px;
+	margin-right: 20px;
 	margin-bottom: 10px;
 	margin-left: 5px;
 }
@@ -12,4 +12,11 @@ body {
 	background-color: #0C4569;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	color: #FFF;
+}
+a {
+	color: #666;
+	background-color: #F9C;
+	padding: 5px;
+	margin-right: 40px;
+	border-radius: 10px;
 }
