@@ -11,12 +11,18 @@
 <!-- TemplateParam name="Primary Nav" type="boolean" value="false" -->
 <!-- TemplateParam name="Secondary Nav" type="boolean" value="false" -->
 <!-- TemplateParam name="Footer" type="boolean" value="false" -->
+<!-- TemplateParam name="Banner 1" type="boolean" value="false" -->
+<!-- TemplateParam name="Banner Two" type="boolean" value="false" -->
+<!-- TemplateParam name="Banner Three" type="boolean" value="false" -->
+<!-- TemplateParam name="Banner Four" type="boolean" value="false" -->
+<!-- TemplateParam name="Banner Five" type="boolean" value="false" -->
+<!-- TemplateParam name="Banner Six" type="boolean" value="false" -->
 </head>
 
 <body>
 <table width="1000" height="250" border="1">
   <tr>
-    <td><!-- TemplateBeginIf cond="Banner" -->Banner<!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginIf cond="_document['Banner 1']" --><img src="../Images/Banner Images/banner-1.jpg" width="1000" height="250"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Banner Two']" --><img src="../Images/Banner Images/banner-2.jpg" width="1000" height="250"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Banner Three']" --><img src="../Images/Banner Images/banner-3.jpg" width="1000" height="250"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Banner Four']" --><img src="../Images/Banner Images/banner-6.jpg" width="1000" height="250"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Banner Five']" --><img src="../Images/Banner Images/banner-5.jpg" width="1000" height="250"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Banner Six']" --><img src="../Images/Banner Images/banner.jpg" width="1000" height="250"><!-- TemplateEndIf --></td>
   </tr>
 </table>
 <table width="1000" height="250" border="1">
