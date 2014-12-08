@@ -17,6 +17,7 @@
 <!-- TemplateParam name="Banner Four" type="boolean" value="false" -->
 <!-- TemplateParam name="Banner Five" type="boolean" value="false" -->
 <!-- TemplateParam name="Banner Six" type="boolean" value="false" -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
